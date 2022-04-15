@@ -1,0 +1,20 @@
+/home/n/project/solana-crowd-funding-platform/program/target/debug/deps/librustversion-d2f17077e635108a.so: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/attr.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/bound.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/constfn.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/date.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/error.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/expand.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/expr.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/release.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/time.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/token.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/version.rs /home/n/project/solana-crowd-funding-platform/program/target/debug/build/rustversion-f097d2be8e92918c/out/version.rs
+
+/home/n/project/solana-crowd-funding-platform/program/target/debug/deps/rustversion-d2f17077e635108a.d: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/attr.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/bound.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/constfn.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/date.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/error.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/expand.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/expr.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/release.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/time.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/token.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/version.rs /home/n/project/solana-crowd-funding-platform/program/target/debug/build/rustversion-f097d2be8e92918c/out/version.rs
+
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/lib.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/attr.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/bound.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/constfn.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/date.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/error.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/expand.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/expr.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/iter.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/release.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/time.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/token.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/rustversion-1.0.6/src/version.rs:
+/home/n/project/solana-crowd-funding-platform/program/target/debug/build/rustversion-f097d2be8e92918c/out/version.rs:
+
+# env-dep:OUT_DIR=/home/n/project/solana-crowd-funding-platform/program/target/debug/build/rustversion-f097d2be8e92918c/out
