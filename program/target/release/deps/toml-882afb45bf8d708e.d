@@ -1,0 +1,15 @@
+/home/n/project/crowd_funding/program/target/release/deps/toml-882afb45bf8d708e.rmeta: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/map.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/value.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/datetime.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/ser.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/de.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/tokens.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/macros.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/spanned.rs
+
+/home/n/project/crowd_funding/program/target/release/deps/libtoml-882afb45bf8d708e.rlib: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/map.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/value.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/datetime.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/ser.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/de.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/tokens.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/macros.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/spanned.rs
+
+/home/n/project/crowd_funding/program/target/release/deps/toml-882afb45bf8d708e.d: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/map.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/value.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/datetime.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/ser.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/de.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/tokens.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/macros.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/spanned.rs
+
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/lib.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/map.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/value.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/datetime.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/ser.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/de.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/tokens.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/macros.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/toml-0.5.9/src/spanned.rs:
