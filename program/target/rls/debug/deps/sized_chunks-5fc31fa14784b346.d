@@ -1,0 +1,12 @@
+/home/n/project/crowd_funding/program/target/rls/debug/deps/sized_chunks-5fc31fa14784b346.rmeta: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/inline_array/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/inline_array/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sized_chunk/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sized_chunk/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sparse_chunk/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sparse_chunk/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/types.rs
+
+/home/n/project/crowd_funding/program/target/rls/debug/deps/sized_chunks-5fc31fa14784b346.d: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/inline_array/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/inline_array/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sized_chunk/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sized_chunk/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sparse_chunk/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sparse_chunk/iter.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/types.rs
+
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/lib.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/inline_array/mod.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/inline_array/iter.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sized_chunk/mod.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sized_chunk/iter.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sparse_chunk/mod.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/sparse_chunk/iter.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/sized-chunks-0.6.5/src/types.rs:

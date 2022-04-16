@@ -121,12 +121,52 @@ fn create_campaign(
     input_data.serialize(&mut &mut writing_account.data.borrow_mut()[..])?;
     Ok(())
 }
+#[derive(BorshSerialize, BorshDeserialize, Debug)]
+struct withdrawRequest {
+    pub amount : u64,
+}
 
 fn withdraw(
     program_id: &Pubkey,
     accounts: &[AccountInfo],
     instruction_data: &[u8],
 ) -> ProgramResult {
+    let accounts_iter = &mut accounts.iter();
+    let writing_account = next_account_info(accounts_iter)?;
+    let admin_account = next_account_info(accounts_iter)?;
+
+
+    //checks
+    if  writing_account.owner != program_id {
+        msf!("Writing_account is not owned by program");
+        return Err(ProgramError::IncorrectProgramId);
+    }
+    if !admin_account.is_signer {
+        msg!("admin should be signer");
+        return Err(ProgramError::IncorrectProgramId)
+    }
+    let campaign_data = CampaignDetails::try_from_slice(*writing_account.data.borrow())
+        .expect("Error deserialization data");
+
+        //checks
+    if campaign_data.admin != *admin_account.key 
+        msg!("Only the account admin can withdraw");
+        return Err(ProgramError::invalidAccountData);
+
+    let input_data = withdrawRequest::try_from_slice(&instruction_data)
+        .expect("Instruction data serialization didn't work");
+    
+    let rent_exemption = Rent::get()?.minimum_balance(writing_account.data_len());
+
+    //check if we have enough funds
+    if **writing_account.lamports.borrow() - rent_exemption < input_data.amount {
+        msg!("Insufficient balance");
+        return Err(ProgramError::InsufficientFunds);
+    }
+
+    //transfer balance
+    **writing_account.try_borrow_mut_lamports()? -= input_data.amount;
+    **admin_account.try_borrow_mut_lamports()? += input_data.amount;
     Ok(())
 }
 

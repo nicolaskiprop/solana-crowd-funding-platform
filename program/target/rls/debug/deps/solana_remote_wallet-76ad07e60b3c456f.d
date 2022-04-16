@@ -1,0 +1,10 @@
+/home/n/project/crowd_funding/program/target/rls/debug/deps/solana_remote_wallet-76ad07e60b3c456f.rmeta: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/ledger.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/ledger_error.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/locator.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/remote_keypair.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/remote_wallet.rs
+
+/home/n/project/crowd_funding/program/target/rls/debug/deps/solana_remote_wallet-76ad07e60b3c456f.d: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/ledger.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/ledger_error.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/locator.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/remote_keypair.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/remote_wallet.rs
+
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/lib.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/ledger.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/ledger_error.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/locator.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/remote_keypair.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/solana-remote-wallet-1.10.8/src/remote_wallet.rs:

@@ -1,0 +1,13 @@
+/home/n/project/crowd_funding/program/target/rls/debug/deps/unicode_bidi-9dc22dc8b4508b5a.rmeta: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/deprecated.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/format_chars.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/level.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/char_data/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/char_data/tables.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/explicit.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/implicit.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/prepare.rs
+
+/home/n/project/crowd_funding/program/target/rls/debug/deps/unicode_bidi-9dc22dc8b4508b5a.d: /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/lib.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/deprecated.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/format_chars.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/level.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/char_data/mod.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/char_data/tables.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/explicit.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/implicit.rs /home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/prepare.rs
+
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/lib.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/deprecated.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/format_chars.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/level.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/char_data/mod.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/char_data/tables.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/explicit.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/implicit.rs:
+/home/n/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-bidi-0.3.7/src/prepare.rs:
