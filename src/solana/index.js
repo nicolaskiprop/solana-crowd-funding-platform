@@ -10,7 +10,7 @@ const programId = new PublicKey("286rapsUbvDe1ZgBeNhp37YHvEPwWPTr4Bkce4oMpUKT");
 
 
 
-
+//helper function
 export async function setPayerAndBlockhashTransaction(instructions) {
     const transaction = new Transaction();
     instructions.forEach(element => {
@@ -21,7 +21,7 @@ export async function setPayerAndBlockhashTransaction(instructions) {
     transaction.recentBlockhash = hash.blockhash;
     return transaction;
 }
-
+//helper function
 export async function signAndSendTransaction(transaction) {
     try {
         console.log("start signAndSendTransaction");
@@ -38,7 +38,7 @@ export async function signAndSendTransaction(transaction) {
     }
 }
 
-//invoke create_campaign instruction
+//js implementation for rust struct CampaignDetails
 
 class CampaignDetails {
     constructor(properties) {
@@ -61,19 +61,21 @@ class CampaignDetails {
 export async function createCampaign(
     name, description, image_link
 ) {
+    //check if wallet is connected or not
     await checkWallet();
     async function checkWallet() {
         if (!wallet.connected()) {
             await wallet.connect();
         }
     }
-
+    //create a pubkey for the program account which will contain the data of a campaign
     const SEED = 'abcdef' + Math.random().toString();
     let newAccount = await PublicKey.createWithSeed(
         wallet.publicKey,
         SEED,
         programId
     );
+    //set up campaign details we want to send to out program
     let campaign = new CampaignDetails({
         name: name,
         description: description,
@@ -81,10 +83,16 @@ export async function createCampaign(
         admin: wallet.publicKey.toBuffer(),
         amount_donated: 0
     })
+
+    //convert data to Uint8array
     let data = serialize(CampaignDetails.schema, campaign);
     let data_to_send = new Uint8Array([0, ...data]);
 
+    //fund it with minimum number of lamports required to make it rent exempt
+
     const lamports = (await connection.getMinimumBalanceForRentExemption(data.length));
+
+    //instruction to create our account
     const createProgramAccount = SystemProgram.createAccountWithSeed({
         fromPubkey: wallet.publicKey,
         basePubkey: wallet.publicKey,
@@ -103,19 +111,28 @@ export async function createCampaign(
         data: data_to_send,
     });
 
+
+    // pass the instructions to our helper functions
     const trans = await setPayerAndBlockhashTransaction(
         [createProgramAccount,
             instructionTOOurProgram]
     );
     const signature = await signAndSendTransaction(trans);
-    const result = await connection.confirmTransaction(sigature);
+
+    //confirm our transaction by passing the signature in confirmTransaction function
+    const result = await connection.confirmTransaction(signature);
     console.log("end sendMessage", result);
 }
+
+
+//form.js on submit
 const onSubmit = async (e) => {
     e.preventDefault();
     await createCampaign(name, description, image);
     setRoute(0);
 }
+
+
 //fetching all campaigns
 export async function getAllCampaigns() {
     let accounts = await connection.getProgramAccounts(programId);
